@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on D963 - Blog lập trình mạng</title>
+    <link>https://github.com/Tandat-562/d963-blog.git/blog/</link>
+    <description>Recent content in Blog on D963 - Blog lập trình mạng</description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://github.com/Tandat-562/d963-blog.git/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gọi HTTP API bằng Java HttpClient (Java 11&#43;)</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Java 11 cung cấp &lt;code&gt;HttpClient&lt;/code&gt; giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTTP cơ bản trong JavaScript với Fetch</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-01-http-fetch/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-01-http-fetch/</guid>
+      <description>&lt;h2 id=&#34;fetch-là-gì&#34;&gt;Fetch là gì?&lt;/h2&gt;
+&lt;p&gt;Fetch API cho phép gửi &lt;strong&gt;HTTP request bất đồng bộ&lt;/strong&gt; từ trình duyệt, thường dùng để gọi REST API.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Socket TCP cơ bản: Client/Server</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-01-tcp-socket/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-01-tcp-socket/</guid>
+      <description>Tạo client/server TCP bằng Java, gửi nhận chuỗi và hiểu luồng dữ liệu.</description>
+    </item>
+    <item>
+      <title>Java TCP Server đa luồng: xử lý nhiều client</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/</guid>
+      <description>&lt;h2 id=&#34;ý-tưởng&#34;&gt;Ý tưởng&lt;/h2&gt;
+&lt;p&gt;Mỗi client kết nối sẽ được xử lý bởi &lt;strong&gt;một thread riêng&lt;/strong&gt; để server có thể phục vụ nhiều người cùng lúc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Node.js tạo HTTP Server cơ bản</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-02-node-http-server/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-02-node-http-server/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Node.js cung cấp module &lt;code&gt;http&lt;/code&gt; cho phép tạo server HTTP một cách rất đơn giản.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>REST API với Express</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-03-express-rest/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-03-express-rest/</guid>
+      <description>&lt;h2 id=&#34;express-là-gì&#34;&gt;Express là gì?&lt;/h2&gt;
+&lt;p&gt;Express là framework backend phổ biến của Node.js, giúp xây dựng REST API nhanh và gọn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UDP trong Java: Gửi/nhận Datagram</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-02-udp/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-02-udp/</guid>
+      <description>Hiểu UDP và thực hành gửi nhận gói tin bằng DatagramSocket.</description>
+    </item>
+    <item>
+      <title>WebSocket với Node.js</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-04-websocket/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-04-websocket/</guid>
+      <description>&lt;h2 id=&#34;websocket-là-gì&#34;&gt;WebSocket là gì?&lt;/h2&gt;
+&lt;p&gt;WebSocket cho phép tạo &lt;strong&gt;kết nối 2 chiều (full-duplex)&lt;/strong&gt; giữa client và server.&lt;br&gt;
+Khác với HTTP (request/response), WebSocket phù hợp cho các ứng dụng &lt;strong&gt;realtime&lt;/strong&gt; như chat, game, notification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-04-spring-rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-04-spring-rest/</guid>
+      <description>&lt;h2 id=&#34;draft-false&#34;&gt;title: &amp;ldquo;REST API cơ bản với Spring Boot&amp;rdquo;
+date: 2025-12-24
+summary: &amp;ldquo;Tạo REST API GET/POST đơn giản bằng Spring Boot.&amp;rdquo;
+categories: [&amp;ldquo;Java&amp;rdquo;]
+tags: [&amp;ldquo;REST&amp;rdquo;, &amp;ldquo;Spring&amp;rdquo;, &amp;ldquo;HTTP&amp;rdquo;]
+draft: false&lt;/h2&gt;
+&lt;h2 id=&#34;rest-là-gì&#34;&gt;REST là gì?&lt;/h2&gt;
+&lt;p&gt;REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

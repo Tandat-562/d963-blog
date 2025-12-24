@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Java TCP Server đa luồng: xử lý nhiều client | D963 - Blog lập trình mạng</title>
+<meta name="keywords" content="TCP, Thread, Networking">
+<meta name="description" content="Ý tưởng
+Mỗi client kết nối sẽ được xử lý bởi một thread riêng để server có thể phục vụ nhiều người cùng lúc.">
+<meta name="author" content="">
+<link rel="canonical" href="https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/">
+<link crossorigin="anonymous" href="/Tandat-562/d963-blog.git/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://github.com/Tandat-562/d963-blog.git/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Tandat-562/d963-blog.git/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://github.com/Tandat-562/d963-blog.git/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://github.com/Tandat-562/d963-blog.git/apple-touch-icon.png">
+<link rel="mask-icon" href="https://github.com/Tandat-562/d963-blog.git/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/">
+  <meta property="og:site_name" content="D963 - Blog lập trình mạng">
+  <meta property="og:title" content="Java TCP Server đa luồng: xử lý nhiều client">
+  <meta property="og:description" content="Ý tưởng Mỗi client kết nối sẽ được xử lý bởi một thread riêng để server có thể phục vụ nhiều người cùng lúc.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-12-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-24T00:00:00+00:00">
+    <meta property="article:tag" content="TCP">
+    <meta property="article:tag" content="Thread">
+    <meta property="article:tag" content="Networking">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java TCP Server đa luồng: xử lý nhiều client">
+<meta name="twitter:description" content="Ý tưởng
+Mỗi client kết nối sẽ được xử lý bởi một thread riêng để server có thể phục vụ nhiều người cùng lúc.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "https://github.com/Tandat-562/d963-blog.git/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Java TCP Server đa luồng: xử lý nhiều client",
+      "item": "https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Java TCP Server đa luồng: xử lý nhiều client",
+  "name": "Java TCP Server đa luồng: xử lý nhiều client",
+  "description": "Ý tưởng Mỗi client kết nối sẽ được xử lý bởi một thread riêng để server có thể phục vụ nhiều người cùng lúc.\n",
+  "keywords": [
+    "TCP", "Thread", "Networking"
+  ],
+  "articleBody": "Ý tưởng Mỗi client kết nối sẽ được xử lý bởi một thread riêng để server có thể phục vụ nhiều người cùng lúc.\nVí dụ Server đa luồng (Thread-per-client) import java.io.*; import java.net.*; public class MultiClientServer { public static void main(String[] args) throws Exception { ServerSocket server = new ServerSocket(9999); System.out.println(\"Server đang chạy tại port 9999...\"); while (true) { Socket client = server.accept(); new Thread(() -\u003e handle(client)).start(); } } static void handle(Socket client) { try { BufferedReader in = new BufferedReader( new InputStreamReader(client.getInputStream()) ); PrintWriter out = new PrintWriter(client.getOutputStream(), true); out.println(\"Xin chào! Gõ exit để thoát.\"); String line; while ((line = in.readLine()) != null) { if (\"exit\".equalsIgnoreCase(line)) break; out.println(\"Echo: \" + line); } client.close(); } catch (Exception e) { e.printStackTrace(); } } } ",
+  "wordCount" : "124",
+  "inLanguage": "en",
+  "datePublished": "2025-12-24T00:00:00Z",
+  "dateModified": "2025-12-24T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "D963 - Blog lập trình mạng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://github.com/Tandat-562/d963-blog.git/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://github.com/Tandat-562/d963-blog.git/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://github.com/Tandat-562/d963-blog.git/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Tandat-562/d963-blog.git/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://github.com/Tandat-562/d963-blog.git/">Trang chủ</a>&nbsp;»&nbsp;<a href="https://github.com/Tandat-562/d963-blog.git/blog/">Blog</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Java TCP Server đa luồng: xử lý nhiều client
+    </h1>
+    <div class="post-meta"><span title='2025-12-24 00:00:00 +0000 UTC'>December 24, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="ý-tưởng">Ý tưởng<a hidden class="anchor" aria-hidden="true" href="#ý-tưởng">#</a></h2>
+<p>Mỗi client kết nối sẽ được xử lý bởi <strong>một thread riêng</strong> để server có thể phục vụ nhiều người cùng lúc.</p>
+<h2 id="ví-dụ-server-đa-luồng-thread-per-client">Ví dụ Server đa luồng (Thread-per-client)<a hidden class="anchor" aria-hidden="true" href="#ví-dụ-server-đa-luồng-thread-per-client">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MultiClientServer</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>        ServerSocket server <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ServerSocket(9999);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Server đang chạy tại port 9999...&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>) {
+</span></span><span style="display:flex;"><span>            Socket client <span style="color:#f92672">=</span> server.<span style="color:#a6e22e">accept</span>();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">new</span> Thread(() <span style="color:#f92672">-&gt;</span> handle(client)).<span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handle</span>(Socket client) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            BufferedReader in <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader(
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">new</span> InputStreamReader(client.<span style="color:#a6e22e">getInputStream</span>())
+</span></span><span style="display:flex;"><span>            );
+</span></span><span style="display:flex;"><span>            PrintWriter out <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PrintWriter(client.<span style="color:#a6e22e">getOutputStream</span>(), <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            out.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Xin chào! Gõ exit để thoát.&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            String line;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> ((line <span style="color:#f92672">=</span> in.<span style="color:#a6e22e">readLine</span>()) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (<span style="color:#e6db74">&#34;exit&#34;</span>.<span style="color:#a6e22e">equalsIgnoreCase</span>(line)) <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>                out.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Echo: &#34;</span> <span style="color:#f92672">+</span> line);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            client.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>            e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/tcp/">TCP</a></li>
+      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/thread/">Thread</a></li>
+      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/networking/">Networking</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://github.com/Tandat-562/d963-blog.git/blog/java-01-tcp-socket/">
+    <span class="title">« Trang trước</span>
+    <br>
+    <span>Java Socket TCP cơ bản: Client/Server</span>
+  </a>
+  <a class="next" href="https://github.com/Tandat-562/d963-blog.git/blog/js-02-node-http-server/">
+    <span class="title">Trang tiếp theo »</span>
+    <br>
+    <span>Node.js tạo HTTP Server cơ bản</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://github.com/Tandat-562/d963-blog.git/">D963 - Blog lập trình mạng</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'Sao chép';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'Đã sao chép!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'Sao chép';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

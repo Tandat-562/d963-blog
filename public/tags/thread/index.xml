@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thread on D963 - Blog lập trình mạng</title>
+    <link>https://github.com/Tandat-562/d963-blog.git/tags/thread/</link>
+    <description>Recent content in Thread on D963 - Blog lập trình mạng</description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://github.com/Tandat-562/d963-blog.git/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java TCP Server đa luồng: xử lý nhiều client</title>
+      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-05-da-luong-server/</guid>
+      <description>&lt;h2 id=&#34;ý-tưởng&#34;&gt;Ý tưởng&lt;/h2&gt;
+&lt;p&gt;Mỗi client kết nối sẽ được xử lý bởi &lt;strong&gt;một thread riêng&lt;/strong&gt; để server có thể phục vụ nhiều người cùng lúc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
