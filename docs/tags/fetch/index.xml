@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fetch on D963 - Blog lập trình mạng</title><link>https://tandat-562.github.io/d963-blog/tags/fetch/</link><description>Recent content in Fetch on D963 - Blog lập trình mạng</description><generator>Hugo -- 0.153.0</generator><language>vi</language><lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tandat-562.github.io/d963-blog/tags/fetch/index.xml" rel="self" type="application/rss+xml"/><item><title>HTTP cơ bản trong JavaScript với Fetch</title><link>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</link><pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate><guid>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</guid><description>&lt;h2 id="fetch-là-gì"&gt;Fetch là gì?&lt;/h2&gt;
-&lt;p&gt;Fetch API cho phép gửi &lt;strong&gt;HTTP request bất đồng bộ&lt;/strong&gt; từ trình duyệt, thường dùng để gọi REST API.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fetch on D963 - Blog lập trình mạng</title>
+    <link>https://tandat-562.github.io/d963-blog/tags/fetch/</link>
+    <description>Recent content in Fetch on D963 - Blog lập trình mạng</description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tandat-562.github.io/d963-blog/tags/fetch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP cơ bản trong JavaScript với Fetch</title>
+      <link>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</guid>
+      <description>&lt;h2 id=&#34;fetch-là-gì&#34;&gt;Fetch là gì?&lt;/h2&gt;
+&lt;p&gt;Fetch API cho phép gửi &lt;strong&gt;HTTP request bất đồng bộ&lt;/strong&gt; từ trình duyệt, thường dùng để gọi REST API.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

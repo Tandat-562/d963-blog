@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Node.js on D963 - Blog lập trình mạng</title><link>https://tandat-562.github.io/d963-blog/tags/node.js/</link><description>Recent content in Node.js on D963 - Blog lập trình mạng</description><generator>Hugo -- 0.153.0</generator><language>vi</language><lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tandat-562.github.io/d963-blog/tags/node.js/index.xml" rel="self" type="application/rss+xml"/><item><title>Node.js tạo HTTP Server cơ bản</title><link>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</link><pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate><guid>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</guid><description>&lt;h2 id="giới-thiệu"&gt;Giới thiệu&lt;/h2&gt;
-&lt;p&gt;Node.js cung cấp module &lt;code&gt;http&lt;/code&gt; cho phép tạo server HTTP một cách rất đơn giản.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Node.js on D963 - Blog lập trình mạng</title>
+    <link>https://tandat-562.github.io/d963-blog/tags/node.js/</link>
+    <description>Recent content in Node.js on D963 - Blog lập trình mạng</description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tandat-562.github.io/d963-blog/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node.js tạo HTTP Server cơ bản</title>
+      <link>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Node.js cung cấp module &lt;code&gt;http&lt;/code&gt; cho phép tạo server HTTP một cách rất đơn giản.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

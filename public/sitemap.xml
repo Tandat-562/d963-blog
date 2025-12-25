@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/d963-blog/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/express/</loc>
+    <loc>http://localhost:1313/tags/express/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/fetch/</loc>
+    <loc>http://localhost:1313/tags/fetch/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/java-03-http-client/</loc>
+    <loc>http://localhost:1313/blog/java-03-http-client/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/http/</loc>
+    <loc>http://localhost:1313/tags/http/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/js-01-http-fetch/</loc>
+    <loc>http://localhost:1313/blog/js-01-http-fetch/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/categories/java/</loc>
+    <loc>http://localhost:1313/categories/java/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/java-01-tcp-socket/</loc>
+    <loc>http://localhost:1313/blog/java-01-tcp-socket/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/java-05-da-luong-server/</loc>
+    <loc>http://localhost:1313/blog/java-05-da-luong-server/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/categories/javascript/</loc>
+    <loc>http://localhost:1313/categories/javascript/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/networking/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/node.js/</loc>
+    <loc>http://localhost:1313/tags/node.js/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/js-02-node-http-server/</loc>
+    <loc>http://localhost:1313/blog/js-02-node-http-server/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/realtime/</loc>
+    <loc>http://localhost:1313/tags/realtime/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/rest/</loc>
+    <loc>http://localhost:1313/tags/rest/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/js-03-express-rest/</loc>
+    <loc>http://localhost:1313/blog/js-03-express-rest/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/server/</loc>
+    <loc>http://localhost:1313/tags/server/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/socket/</loc>
+    <loc>http://localhost:1313/tags/socket/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/tcp/</loc>
+    <loc>http://localhost:1313/tags/tcp/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/thread/</loc>
+    <loc>http://localhost:1313/tags/thread/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/udp/</loc>
+    <loc>http://localhost:1313/tags/udp/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/java-02-udp/</loc>
+    <loc>http://localhost:1313/blog/java-02-udp/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/tags/websocket/</loc>
+    <loc>http://localhost:1313/tags/websocket/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/js-04-websocket/</loc>
+    <loc>http://localhost:1313/blog/js-04-websocket/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/d963-blog/blog/java-04-spring-rest/</loc>
+    <loc>http://localhost:1313/blog/java-04-spring-rest/</loc>
   </url>
 </urlset>

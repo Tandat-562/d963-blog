@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JavaScript on D963 - Blog lập trình mạng</title>
-    <link>http://localhost:1313/d963-blog/categories/javascript/</link>
+    <link>http://localhost:1313/categories/javascript/</link>
     <description>Recent content in JavaScript on D963 - Blog lập trình mạng</description>
     <generator>Hugo -- 0.153.0</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/d963-blog/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTTP cơ bản trong JavaScript với Fetch</title>
-      <link>http://localhost:1313/d963-blog/blog/js-01-http-fetch/</link>
+      <link>http://localhost:1313/blog/js-01-http-fetch/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/d963-blog/blog/js-01-http-fetch/</guid>
+      <guid>http://localhost:1313/blog/js-01-http-fetch/</guid>
       <description>&lt;h2 id=&#34;fetch-là-gì&#34;&gt;Fetch là gì?&lt;/h2&gt;
 &lt;p&gt;Fetch API cho phép gửi &lt;strong&gt;HTTP request bất đồng bộ&lt;/strong&gt; từ trình duyệt, thường dùng để gọi REST API.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Node.js tạo HTTP Server cơ bản</title>
-      <link>http://localhost:1313/d963-blog/blog/js-02-node-http-server/</link>
+      <link>http://localhost:1313/blog/js-02-node-http-server/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/d963-blog/blog/js-02-node-http-server/</guid>
+      <guid>http://localhost:1313/blog/js-02-node-http-server/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Node.js cung cấp module &lt;code&gt;http&lt;/code&gt; cho phép tạo server HTTP một cách rất đơn giản.&lt;/p&gt;</description>
     </item>
     <item>
       <title>REST API với Express</title>
-      <link>http://localhost:1313/d963-blog/blog/js-03-express-rest/</link>
+      <link>http://localhost:1313/blog/js-03-express-rest/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/d963-blog/blog/js-03-express-rest/</guid>
+      <guid>http://localhost:1313/blog/js-03-express-rest/</guid>
       <description>&lt;h2 id=&#34;express-là-gì&#34;&gt;Express là gì?&lt;/h2&gt;
 &lt;p&gt;Express là framework backend phổ biến của Node.js, giúp xây dựng REST API nhanh và gọn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebSocket với Node.js</title>
-      <link>http://localhost:1313/d963-blog/blog/js-04-websocket/</link>
+      <link>http://localhost:1313/blog/js-04-websocket/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/d963-blog/blog/js-04-websocket/</guid>
+      <guid>http://localhost:1313/blog/js-04-websocket/</guid>
       <description>&lt;h2 id=&#34;websocket-là-gì&#34;&gt;WebSocket là gì?&lt;/h2&gt;
 &lt;p&gt;WebSocket cho phép tạo &lt;strong&gt;kết nối 2 chiều (full-duplex)&lt;/strong&gt; giữa client và server.&lt;br&gt;
 Khác với HTTP (request/response), WebSocket phù hợp cho các ứng dụng &lt;strong&gt;realtime&lt;/strong&gt; như chat, game, notification.&lt;/p&gt;</description>
