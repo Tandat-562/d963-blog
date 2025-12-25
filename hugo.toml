@@ -1,4 +1,5 @@
 baseURL = "https://tandat-562.github.io/d963-blog/"
+publishDir = "docs"
 canonifyURLs = true
 relativeURLs = false
 
