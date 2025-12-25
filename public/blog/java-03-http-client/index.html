@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="dark">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Gọi HTTP API bằng Java HttpClient (Java 11&#43;) | D963 - Blog lập trình mạng</title>
 <meta name="keywords" content="HTTP, REST, Networking">
 <meta name="description" content="Giới thiệu
 Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/blog/java-03-http-client/">
-<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
+<link crossorigin="anonymous" href="https://tandat-562.github.io/d963-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tandat-562.github.io/d963-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tandat-562.github.io/d963-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tandat-562.github.io/d963-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tandat-562.github.io/d963-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tandat-562.github.io/d963-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/java-03-http-client/">
+<link rel="alternate" hreflang="en" href="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
 <noscript>
     <style>
         #theme-toggle,
@@ -34,14 +34,80 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><link rel="stylesheet" href="http://localhost:1313/custom.css">
+</script><link rel="stylesheet" href="https://tandat-562.github.io/d963-blog/custom.css">
+<meta property="og:url" content="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
+  <meta property="og:site_name" content="D963 - Blog lập trình mạng">
+  <meta property="og:title" content="Gọi HTTP API bằng Java HttpClient (Java 11&#43;)">
+  <meta property="og:description" content="Giới thiệu Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-12-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-24T00:00:00+00:00">
+    <meta property="article:tag" content="HTTP">
+    <meta property="article:tag" content="REST">
+    <meta property="article:tag" content="Networking">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gọi HTTP API bằng Java HttpClient (Java 11&#43;)">
+<meta name="twitter:description" content="Giới thiệu
+Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.">
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "https://tandat-562.github.io/d963-blog/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Gọi HTTP API bằng Java HttpClient (Java 11+)",
+      "item": "https://tandat-562.github.io/d963-blog/blog/java-03-http-client/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Gọi HTTP API bằng Java HttpClient (Java 11+)",
+  "name": "Gọi HTTP API bằng Java HttpClient (Java 11\u002b)",
+  "description": "Giới thiệu Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.\n",
+  "keywords": [
+    "HTTP", "REST", "Networking"
+  ],
+  "articleBody": "Giới thiệu Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.\nVí dụ GET Request import java.net.URI; import java.net.http.*; public class HttpGetExample { public static void main(String[] args) throws Exception { HttpClient client = HttpClient.newHttpClient(); HttpRequest request = HttpRequest.newBuilder() .uri(URI.create(\"https://jsonplaceholder.typicode.com/posts/1\")) .GET() .build(); HttpResponse\u003cString\u003e response = client.send(request, HttpResponse.BodyHandlers.ofString()); System.out.println(response.body()); } } ",
+  "wordCount" : "58",
+  "inLanguage": "en",
+  "datePublished": "2025-12-24T00:00:00Z",
+  "dateModified": "2025-12-24T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tandat-562.github.io/d963-blog/blog/java-03-http-client/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "D963 - Blog lập trình mạng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tandat-562.github.io/d963-blog/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
+            <a href="https://tandat-562.github.io/d963-blog/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -67,37 +133,37 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/#top" title="Trang chính">
+                <a href="https://tandat-562.github.io/d963-blog#top" title="Trang chính">
                     <span>Trang chính</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#about" title="Về tôi">
+                <a href="https://tandat-562.github.io/d963-blog#about" title="Về tôi">
                     <span>Về tôi</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#skills" title="Kỹ năng">
+                <a href="https://tandat-562.github.io/d963-blog#skills" title="Kỹ năng">
                     <span>Kỹ năng</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#projects" title="Dự án">
+                <a href="https://tandat-562.github.io/d963-blog#projects" title="Dự án">
                     <span>Dự án</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#certs" title="Chứng chỉ">
+                <a href="https://tandat-562.github.io/d963-blog#certs" title="Chứng chỉ">
                     <span>Chứng chỉ</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#contact" title="Liên hệ">
+                <a href="https://tandat-562.github.io/d963-blog#contact" title="Liên hệ">
                     <span>Liên hệ</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
+                <a href="https://tandat-562.github.io/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -144,16 +210,16 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/http/">HTTP</a></li>
-      <li><a href="http://localhost:1313/tags/rest/">REST</a></li>
-      <li><a href="http://localhost:1313/tags/networking/">Networking</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/http/">HTTP</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/rest/">REST</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/networking/">Networking</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">D963 - Blog lập trình mạng</a></span> · 
+        <span>&copy; 2025 <a href="https://tandat-562.github.io/d963-blog/">D963 - Blog lập trình mạng</a></span> · 
 
     <span>
         Powered by
@@ -165,8 +231,8 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a><script defer src="http://localhost:1313/header-scroll.js"></script>
-<script defer src="http://localhost:1313/reveal.js"></script>
+</a><script defer src="https://tandat-562.github.io/d963-blog/header-scroll.js"></script>
+<script defer src="https://tandat-562.github.io/d963-blog/reveal.js"></script>
 
 
 <script>

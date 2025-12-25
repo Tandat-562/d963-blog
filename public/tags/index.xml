@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on D963 - Blog lập trình mạng</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://tandat-562.github.io/d963-blog/tags/</link>
     <description>Recent content in Tags on D963 - Blog lập trình mạng</description>
     <generator>Hugo -- 0.153.0</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tandat-562.github.io/d963-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Express</title>
-      <link>http://localhost:1313/tags/express/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/express/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/express/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/express/</guid>
       <description></description>
     </item>
     <item>
       <title>Fetch</title>
-      <link>http://localhost:1313/tags/fetch/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/fetch/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fetch/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/fetch/</guid>
       <description></description>
     </item>
     <item>
       <title>HTTP</title>
-      <link>http://localhost:1313/tags/http/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/http/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/http/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/http/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>http://localhost:1313/tags/networking/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/networking/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/networking/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://localhost:1313/tags/node.js/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/node.js/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/node.js/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Realtime</title>
-      <link>http://localhost:1313/tags/realtime/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/realtime/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/realtime/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/realtime/</guid>
       <description></description>
     </item>
     <item>
       <title>REST</title>
-      <link>http://localhost:1313/tags/rest/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/rest/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rest/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>http://localhost:1313/tags/server/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/server/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/server/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Socket</title>
-      <link>http://localhost:1313/tags/socket/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/socket/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/socket/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/socket/</guid>
       <description></description>
     </item>
     <item>
       <title>TCP</title>
-      <link>http://localhost:1313/tags/tcp/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/tcp/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tcp/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/tcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Thread</title>
-      <link>http://localhost:1313/tags/thread/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/thread/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/thread/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/thread/</guid>
       <description></description>
     </item>
     <item>
       <title>UDP</title>
-      <link>http://localhost:1313/tags/udp/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/udp/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/udp/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/udp/</guid>
       <description></description>
     </item>
     <item>
       <title>WebSocket</title>
-      <link>http://localhost:1313/tags/websocket/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/websocket/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/websocket/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/websocket/</guid>
       <description></description>
     </item>
   </channel>

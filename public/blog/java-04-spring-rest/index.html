@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="dark">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>D963 - Blog lập trình mạng</title>
 <meta name="keywords" content="">
 <meta name="description" content="title: &ldquo;REST API cơ bản với Spring Boot&rdquo;
@@ -16,16 +16,16 @@ draft: false
 REST là gì?
 REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/blog/java-04-spring-rest/">
-<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://tandat-562.github.io/d963-blog/blog/java-04-spring-rest/">
+<link crossorigin="anonymous" href="https://tandat-562.github.io/d963-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tandat-562.github.io/d963-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tandat-562.github.io/d963-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tandat-562.github.io/d963-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tandat-562.github.io/d963-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tandat-562.github.io/d963-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/java-04-spring-rest/">
+<link rel="alternate" hreflang="en" href="https://tandat-562.github.io/d963-blog/blog/java-04-spring-rest/">
 <noscript>
     <style>
         #theme-toggle,
@@ -40,14 +40,81 @@ REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, PO
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><link rel="stylesheet" href="http://localhost:1313/custom.css">
+</script><link rel="stylesheet" href="https://tandat-562.github.io/d963-blog/custom.css">
+<meta property="og:url" content="https://tandat-562.github.io/d963-blog/blog/java-04-spring-rest/">
+  <meta property="og:site_name" content="D963 - Blog lập trình mạng">
+  <meta property="og:title" content="D963 - Blog lập trình mạng">
+  <meta property="og:description" content="title: “REST API cơ bản với Spring Boot” date: 2025-12-24 summary: “Tạo REST API GET/POST đơn giản bằng Spring Boot.” categories: [“Java”] tags: [“REST”, “Spring”, “HTTP”] draft: false REST là gì? REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="title: &ldquo;REST API cơ bản với Spring Boot&rdquo;
+date: 2025-12-24
+summary: &ldquo;Tạo REST API GET/POST đơn giản bằng Spring Boot.&rdquo;
+categories: [&ldquo;Java&rdquo;]
+tags: [&ldquo;REST&rdquo;, &ldquo;Spring&rdquo;, &ldquo;HTTP&rdquo;]
+draft: false
+REST là gì?
+REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.">
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "https://tandat-562.github.io/d963-blog/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "",
+      "item": "https://tandat-562.github.io/d963-blog/blog/java-04-spring-rest/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": "title: \u0026ldquo;REST API cơ bản với Spring Boot\u0026rdquo; date: 2025-12-24 summary: \u0026ldquo;Tạo REST API GET/POST đơn giản bằng Spring Boot.\u0026rdquo; categories: [\u0026ldquo;Java\u0026rdquo;] tags: [\u0026ldquo;REST\u0026rdquo;, \u0026ldquo;Spring\u0026rdquo;, \u0026ldquo;HTTP\u0026rdquo;] draft: false REST là gì? REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "title: “REST API cơ bản với Spring Boot” date: 2025-12-24 summary: “Tạo REST API GET/POST đơn giản bằng Spring Boot.” categories: [“Java”] tags: [“REST”, “Spring”, “HTTP”] draft: false REST là gì? REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, POST.\nVí dụ Controller import org.springframework.web.bind.annotation.*; import java.util.*; @RestController @RequestMapping(\"/api\") public class DemoController { @GetMapping(\"/hello\") public Map\u003cString, String\u003e hello() { return Map.of(\"message\", \"Hello REST\"); } } ",
+  "wordCount" : "71",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tandat-562.github.io/d963-blog/blog/java-04-spring-rest/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "D963 - Blog lập trình mạng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tandat-562.github.io/d963-blog/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
+            <a href="https://tandat-562.github.io/d963-blog/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -73,37 +140,37 @@ REST là kiến trúc API dựa trên HTTP, sử dụng các method như GET, PO
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/#top" title="Trang chính">
+                <a href="https://tandat-562.github.io/d963-blog#top" title="Trang chính">
                     <span>Trang chính</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#about" title="Về tôi">
+                <a href="https://tandat-562.github.io/d963-blog#about" title="Về tôi">
                     <span>Về tôi</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#skills" title="Kỹ năng">
+                <a href="https://tandat-562.github.io/d963-blog#skills" title="Kỹ năng">
                     <span>Kỹ năng</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#projects" title="Dự án">
+                <a href="https://tandat-562.github.io/d963-blog#projects" title="Dự án">
                     <span>Dự án</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#certs" title="Chứng chỉ">
+                <a href="https://tandat-562.github.io/d963-blog#certs" title="Chứng chỉ">
                     <span>Chứng chỉ</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/#contact" title="Liên hệ">
+                <a href="https://tandat-562.github.io/d963-blog#contact" title="Liên hệ">
                     <span>Liên hệ</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
+                <a href="https://tandat-562.github.io/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -156,7 +223,7 @@ draft: false</h2>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">D963 - Blog lập trình mạng</a></span> · 
+        <span>&copy; 2025 <a href="https://tandat-562.github.io/d963-blog/">D963 - Blog lập trình mạng</a></span> · 
 
     <span>
         Powered by
@@ -168,8 +235,8 @@ draft: false</h2>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a><script defer src="http://localhost:1313/header-scroll.js"></script>
-<script defer src="http://localhost:1313/reveal.js"></script>
+</a><script defer src="https://tandat-562.github.io/d963-blog/header-scroll.js"></script>
+<script defer src="https://tandat-562.github.io/d963-blog/reveal.js"></script>
 
 
 <script>
