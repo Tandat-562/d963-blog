@@ -10,16 +10,16 @@
 <meta name="description" content="Giới thiệu
 Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.">
 <meta name="author" content="">
-<link rel="canonical" href="https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/">
-<link crossorigin="anonymous" href="/Tandat-562/d963-blog.git/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://github.com/Tandat-562/d963-blog.git/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Tandat-562/d963-blog.git/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://github.com/Tandat-562/d963-blog.git/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://github.com/Tandat-562/d963-blog.git/apple-touch-icon.png">
-<link rel="mask-icon" href="https://github.com/Tandat-562/d963-blog.git/safari-pinned-tab.svg">
+<link rel="canonical" href="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
+<link crossorigin="anonymous" href="https://tandat-562.github.io/d963-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tandat-562.github.io/d963-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tandat-562.github.io/d963-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tandat-562.github.io/d963-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tandat-562.github.io/d963-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tandat-562.github.io/d963-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/">
+<link rel="alternate" hreflang="en" href="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
 <noscript>
     <style>
         #theme-toggle,
@@ -34,7 +34,8 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/">
+</script><link rel="stylesheet" href="https://tandat-562.github.io/d963-blog/custom.css">
+<meta property="og:url" content="https://tandat-562.github.io/d963-blog/blog/java-03-http-client/">
   <meta property="og:site_name" content="D963 - Blog lập trình mạng">
   <meta property="og:title" content="Gọi HTTP API bằng Java HttpClient (Java 11&#43;)">
   <meta property="og:description" content="Giới thiệu Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.">
@@ -61,13 +62,13 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blog",
-      "item": "https://github.com/Tandat-562/d963-blog.git/blog/"
+      "item": "https://tandat-562.github.io/d963-blog/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Gọi HTTP API bằng Java HttpClient (Java 11+)",
-      "item": "https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/"
+      "item": "https://tandat-562.github.io/d963-blog/blog/java-03-http-client/"
     }
   ]
 }
@@ -89,14 +90,14 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
   "dateModified": "2025-12-24T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/"
+    "@id": "https://tandat-562.github.io/d963-blog/blog/java-03-http-client/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "D963 - Blog lập trình mạng",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://github.com/Tandat-562/d963-blog.git/favicon.ico"
+      "url": "https://tandat-562.github.io/d963-blog/favicon.ico"
     }
   }
 }
@@ -106,7 +107,7 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://github.com/Tandat-562/d963-blog.git/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
+            <a href="https://tandat-562.github.io/d963-blog/" accesskey="h" title="D963 - Blog lập trình mạng (Alt + H)">D963 - Blog lập trình mạng</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -132,12 +133,37 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
         </div>
         <ul id="menu">
             <li>
-                <a href="https://github.com/Tandat-562/d963-blog.git/" title="Home">
-                    <span>Home</span>
+                <a href="https://tandat-562.github.io/d963-blog#top" title="Trang chính">
+                    <span>Trang chính</span>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/Tandat-562/d963-blog.git/blog/" title="Blog">
+                <a href="https://tandat-562.github.io/d963-blog#about" title="Về tôi">
+                    <span>Về tôi</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tandat-562.github.io/d963-blog#skills" title="Kỹ năng">
+                    <span>Kỹ năng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tandat-562.github.io/d963-blog#projects" title="Dự án">
+                    <span>Dự án</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tandat-562.github.io/d963-blog#certs" title="Chứng chỉ">
+                    <span>Chứng chỉ</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tandat-562.github.io/d963-blog#contact" title="Liên hệ">
+                    <span>Liên hệ</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tandat-562.github.io/d963-blog/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -148,11 +174,11 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://github.com/Tandat-562/d963-blog.git/">Trang chủ</a>&nbsp;»&nbsp;<a href="https://github.com/Tandat-562/d963-blog.git/blog/">Blog</a></div>
+    
     <h1 class="post-title entry-hint-parent">
       Gọi HTTP API bằng Java HttpClient (Java 11&#43;)
     </h1>
-    <div class="post-meta"><span title='2025-12-24 00:00:00 +0000 UTC'>December 24, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>
+    <div class="post-meta"><span title='2025-12-24 00:00:00 +0000 UTC'>December 24, 2025</span>
 
 </div>
   </header> 
@@ -184,24 +210,16 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/http/">HTTP</a></li>
-      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/rest/">REST</a></li>
-      <li><a href="https://github.com/Tandat-562/d963-blog.git/tags/networking/">Networking</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/http/">HTTP</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/rest/">REST</a></li>
+      <li><a href="https://tandat-562.github.io/d963-blog/tags/networking/">Networking</a></li>
     </ul>
-<nav class="paginav">
-  <a class="next" href="https://github.com/Tandat-562/d963-blog.git/blog/js-01-http-fetch/">
-    <span class="title">Trang tiếp theo »</span>
-    <br>
-    <span>HTTP cơ bản trong JavaScript với Fetch</span>
-  </a>
-</nav>
-
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://github.com/Tandat-562/d963-blog.git/">D963 - Blog lập trình mạng</a></span> · 
+        <span>&copy; 2025 <a href="https://tandat-562.github.io/d963-blog/">D963 - Blog lập trình mạng</a></span> · 
 
     <span>
         Powered by
@@ -213,7 +231,9 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script src="https://tandat-562.github.io/d963-blog/reveal.js"></script>
+<script src="https://tandat-562.github.io/d963-blog/header-scroll.js"></script>
+
 
 <script>
     let menu = document.getElementById('menu');
@@ -274,53 +294,6 @@ Java 11 cung cấp HttpClient giúp gửi HTTP request dễ dàng mà không c�
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'Sao chép';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'Đã sao chép!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'Sao chép';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 

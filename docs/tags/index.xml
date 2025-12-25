@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on D963 - Blog lập trình mạng</title>
-    <link>https://github.com/Tandat-562/d963-blog.git/tags/</link>
+    <link>https://tandat-562.github.io/d963-blog/tags/</link>
     <description>Recent content in Tags on D963 - Blog lập trình mạng</description>
     <generator>Hugo -- 0.153.0</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://github.com/Tandat-562/d963-blog.git/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tandat-562.github.io/d963-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Express</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/express/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/express/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/express/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/express/</guid>
       <description></description>
     </item>
     <item>
       <title>Fetch</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/fetch/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/fetch/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/fetch/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/fetch/</guid>
       <description></description>
     </item>
     <item>
       <title>HTTP</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/http/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/http/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/http/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/http/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/networking/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/networking/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/networking/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/node.js/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/node.js/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/node.js/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Realtime</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/realtime/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/realtime/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/realtime/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/realtime/</guid>
       <description></description>
     </item>
     <item>
       <title>REST</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/rest/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/rest/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/rest/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/server/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/server/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/server/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Socket</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/socket/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/socket/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/socket/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/socket/</guid>
       <description></description>
     </item>
     <item>
       <title>TCP</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/tcp/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/tcp/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/tcp/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/tcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Thread</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/thread/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/thread/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/thread/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/thread/</guid>
       <description></description>
     </item>
     <item>
       <title>UDP</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/udp/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/udp/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/udp/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/udp/</guid>
       <description></description>
     </item>
     <item>
       <title>WebSocket</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/tags/websocket/</link>
+      <link>https://tandat-562.github.io/d963-blog/tags/websocket/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/tags/websocket/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/tags/websocket/</guid>
       <description></description>
     </item>
   </channel>

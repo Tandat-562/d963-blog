@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>HTTP on D963 - Blog lập trình mạng</title>
-    <link>https://github.com/Tandat-562/d963-blog.git/tags/http/</link>
+    <link>https://tandat-562.github.io/d963-blog/tags/http/</link>
     <description>Recent content in HTTP on D963 - Blog lập trình mạng</description>
     <generator>Hugo -- 0.153.0</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://github.com/Tandat-562/d963-blog.git/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tandat-562.github.io/d963-blog/tags/http/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gọi HTTP API bằng Java HttpClient (Java 11&#43;)</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/</link>
+      <link>https://tandat-562.github.io/d963-blog/blog/java-03-http-client/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/blog/java-03-http-client/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/blog/java-03-http-client/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Java 11 cung cấp &lt;code&gt;HttpClient&lt;/code&gt; giúp gửi HTTP request dễ dàng mà không cần thư viện ngoài.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTTP cơ bản trong JavaScript với Fetch</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-01-http-fetch/</link>
+      <link>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-01-http-fetch/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/blog/js-01-http-fetch/</guid>
       <description>&lt;h2 id=&#34;fetch-là-gì&#34;&gt;Fetch là gì?&lt;/h2&gt;
 &lt;p&gt;Fetch API cho phép gửi &lt;strong&gt;HTTP request bất đồng bộ&lt;/strong&gt; từ trình duyệt, thường dùng để gọi REST API.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Node.js tạo HTTP Server cơ bản</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-02-node-http-server/</link>
+      <link>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-02-node-http-server/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/blog/js-02-node-http-server/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Node.js cung cấp module &lt;code&gt;http&lt;/code&gt; cho phép tạo server HTTP một cách rất đơn giản.&lt;/p&gt;</description>
     </item>
     <item>
       <title>REST API với Express</title>
-      <link>https://github.com/Tandat-562/d963-blog.git/blog/js-03-express-rest/</link>
+      <link>https://tandat-562.github.io/d963-blog/blog/js-03-express-rest/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/Tandat-562/d963-blog.git/blog/js-03-express-rest/</guid>
+      <guid>https://tandat-562.github.io/d963-blog/blog/js-03-express-rest/</guid>
       <description>&lt;h2 id=&#34;express-là-gì&#34;&gt;Express là gì?&lt;/h2&gt;
 &lt;p&gt;Express là framework backend phổ biến của Node.js, giúp xây dựng REST API nhanh và gọn.&lt;/p&gt;</description>
     </item>

@@ -1,37 +1,41 @@
-baseURL = "https://github.com/Tandat-562/d963-blog.git"
+baseURL = "https://tandat-562.github.io/d963-blog/"
+canonifyURLs = true
+relativeURLs = false
+
 languageCode = "vi"
 title = "D963 - Blog lập trình mạng"
 theme = "PaperMod"
-
-[pagination]
-  pagerSize = 8
-
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Trang chính"
+    url = "#top"
     weight = 1
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "Về tôi"
+    url = "#about"
     weight = 2
-
+  [[menu.main]]
+    name = "Kỹ năng"
+    url = "#skills"
+    weight = 3
+  [[menu.main]]
+    name = "Dự án"
+    url = "#projects"
+    weight = 4
+  [[menu.main]]
+    name = "Chứng chỉ"
+    url = "#certs"
+    weight = 5
+  [[menu.main]]
+    name = "Liên hệ"
+    url = "#contact"
+    weight = 6
+  [[menu.main]]
+    name = "Blog"
+    url = "blog/"
+    weight = 7
 [params]
   defaultTheme = "dark"
   disableThemeToggle = false
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-
-  [params.profileMode]
-    enabled = true
-    title = "Bùi Tấn Đạt"
-    subtitle = "Sinh viên HUTECH • Blog lập trình mạng (Java & JavaScript)"
-    imageUrl = "/avatar.jpg"
-    imageWidth = 160
-    imageHeight = 160
-
-    [[params.profileMode.buttons]]
-      name = "Xem Blog"
-      url = "/blog/"
+  customCSS = ["custom.css"]
+imageUrl = "avatar.jpg"

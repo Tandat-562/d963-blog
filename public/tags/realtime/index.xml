@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Realtime on D963 - Blog lập trình mạng</title>
+    <link>http://localhost:1313/d963-blog/tags/realtime/</link>
+    <description>Recent content in Realtime on D963 - Blog lập trình mạng</description>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/d963-blog/tags/realtime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebSocket với Node.js</title>
+      <link>http://localhost:1313/d963-blog/blog/js-04-websocket/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/d963-blog/blog/js-04-websocket/</guid>
+      <description>&lt;h2 id=&#34;websocket-là-gì&#34;&gt;WebSocket là gì?&lt;/h2&gt;
+&lt;p&gt;WebSocket cho phép tạo &lt;strong&gt;kết nối 2 chiều (full-duplex)&lt;/strong&gt; giữa client và server.&lt;br&gt;
+Khác với HTTP (request/response), WebSocket phù hợp cho các ứng dụng &lt;strong&gt;realtime&lt;/strong&gt; như chat, game, notification.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
