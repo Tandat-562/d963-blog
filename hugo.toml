@@ -32,7 +32,7 @@ theme = "PaperMod"
     weight = 6
   [[menu.main]]
     name = "Blog"
-    url = "blog/"
+    url = "/blog/"
     weight = 7
 [params]
   defaultTheme = "dark"
